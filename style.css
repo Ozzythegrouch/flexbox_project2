@@ -1,0 +1,43 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.cointainer {
+  color: aqua;
+  display: flex;
+}
+
+.box--solo {
+  background-color: #fd50a5;
+  margin-bottom: 6px;
+  padding: 20px;
+}
+
+.box--multi {
+  display: flex;
+}
+
+.box--solo__left {
+  background-color: #fd0c7e;
+  flex-grow: 2;
+  margin: 0px 6px 0px 0;
+  width: 70px;
+}
+.box--solo__right {
+  background-color: #cc0b68;
+  flex-grow: 1;
+  padding: 60px;
+}
+
+.box--solo__bottom {
+  background-color: #7f2854;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/*
+fd0c7e
+cc0b68
+7f2854
+*/
